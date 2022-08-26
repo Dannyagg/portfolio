@@ -15,7 +15,7 @@ export default function About() {
           justifyContent: 'center',
           margin: 'auto',
           padding: '20px',
-          minHeight: '100%'
+          // minHeight: '100vh',
           // border: '1px solid red'
         }}
       >
@@ -34,19 +34,21 @@ export default function About() {
 
         <div className="about-message"
           style={{
-            maxWidth: '400px',
-            backgroundColor: '#aca8a8e4',
+            width: '22rem',
+            height: '18rem',
+            padding: '10px',
+            margin: '10px',
+            backgroundColor: '#fbfaf9c8',
             color: 'black',
-            padding: '20px',
-            boxShadow: 'rgba(0, 0, 0, 0.25) 0px 0.0625em 0.0625em, rgba(0, 0, 0, 0.25) 0px 0.125em 0.5em, rgba(255, 255, 255, 0.1) 0px 0px 0px 1px inset'
+            boxShadow: 'rgba(0, 0, 0, 0.25) 0px 0.0625em 0.0625em, rgba(0, 0, 0, 0.25) 0px 0.125em 0.5em, rgba(241, 233, 233, 0.411) 0px 0px 0px 1px inset'
           }}
         >
           <h2
             style={{
               display: 'flex',
             }}
-          > Daniel Agbenu Jr.</h2>
-          {/* <hr /> */}
+          > Daniel Agbenu Jr </h2>
+          <hr />
 
           <p
             style={{
@@ -63,11 +65,11 @@ export default function About() {
             className="contact-email"
             style={{
               display: 'flex',
-              alignItems: 'center',
+              // alignItems: 'center',
               gap: '0.5rem'
             }}>
 
-            <p>Email Me </p>
+            <p>email me </p>
             <Email />
           </div>
         </div>
