@@ -15,6 +15,7 @@ export default function About() {
           justifyContent: 'center',
           margin: 'auto',
           padding: '20px',
+          minHeight: '100%'
           // border: '1px solid red'
         }}
       >
@@ -25,7 +26,7 @@ export default function About() {
               height: '22rem',
               padding: '5px',
               margin: '10px',
-              // borderRadius: '10%',
+              borderRadius: '10%',
               boxShadow: 'rgba(0, 0, 0, 0.25) 0px 0.0625em 0.0625em, rgba(0, 0, 0, 0.25) 0px 0.125em 0.5em, rgba(255, 255, 255, 0.1) 0px 0px 0px 1px inset'
             }}
           />
@@ -42,9 +43,9 @@ export default function About() {
         >
           <h2
             style={{
-              display: 'flex',         
+              display: 'flex',
             }}
-            > Daniel Agbenu Jr.</h2>
+          > Daniel Agbenu Jr.</h2>
           {/* <hr /> */}
 
           <p
@@ -59,19 +60,22 @@ export default function About() {
           {/* <hr /> */}
 
           <div
-          className="contact-email"
+            className="contact-email"
             style={{
               display: 'flex',
               alignItems: 'center',
-              gap: '0.5rem'   
+              gap: '0.5rem'
             }}>
-            
-            <p>Email Me </p> 
+
+            <p>Email Me </p>
             <Email />
           </div>
-
         </div>
+
       </div>
+
+     
+
     </>
   )
 }

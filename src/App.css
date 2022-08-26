@@ -4,9 +4,9 @@
   padding: 0px;
 }
 
-html, body {
+body {
   margin: 0;
-  
+  height: 100vh;
 }
 
 .heading a {
@@ -14,7 +14,6 @@ html, body {
 }
 
 body {
-
   background-color: #b29999;
   background-image: linear-gradient(rgba(25, 14, 14, 0.9), rgba(0, 0, 0, 0.1)),
     url("./images/leone-venter\ unsplash.jpg");
@@ -23,8 +22,8 @@ body {
   background-attachment: fixed;
   background-position: center;
   background-size: auto, 100%, 100%;
+
   /* background-size: cover; */
- 
 }
 
 /* error message styles */
@@ -59,6 +58,24 @@ svg:hover {
   text-decoration: underline;
 }
 
+.contact-email {
+  align-items: center;
+}
+
+/* Skills-Icons */
+
+.SkillsContainer > i {
+  font-size: 50px;
+  margin: 5px;
+  padding: 5px;
+  border-radius: 10px;
+  box-shadow: rgb(54, 71, 89) 0px 20px 30px -10px;
+}
+
+.devicon-express-original-wordmark {
+  background-color: rgba(255, 255, 255, 0.946);
+}
+
 /* footer styles */
 
 .footer {
@@ -67,9 +84,8 @@ svg:hover {
   text-align: center;
   margin-bottom: 20px;
   position: relative;
-  /* left: 0;
-  right: 0; 
-  bottom: 0; */
+  bottom: 0;
+  width: 100%;
 }
 
 .social {
@@ -92,7 +108,7 @@ svg:hover {
 
 .fa:hover {
   opacity: 0.9;
-  border: 1px solid rgb(91, 20, 20);
+  transform: scale(1.2);
 }
 
 .fa-twitter {

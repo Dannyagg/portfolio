@@ -17,7 +17,7 @@ export function Email() {
         title='Click to email Me'
         className="envelope"
         style={{
-          fontSize: '40px',
+          fontSize: '30px',
         }} />
     </Mailto>
   );
