@@ -1,27 +1,32 @@
 import React from 'react'
+import Weather from '../components/Weather'
+// import myWeatherWatch1 from '../images/myWeatherWatch1.png'
+// import DemoButton from '../components/DemoButton'
 
-export default function Projects () {
+export default function Projects() {
   return (
     <>
-    <div
-    
+      <div
+        className="project-wrapper"
         style={{
           display: 'flex',
-          flexFlow: 'row wrap',
-          alignItems: 'center',
+          flexDirection: 'column',
           justifyContent: 'center',
-          margin: 'auto',
-          padding: '20px',
-          minHeight: '100vh',
-          border: '1px solid red'
-        }}
-    
-    >
+          alignItems: 'center',
+          gap: '1rem',
+          margin: '20px',
+          // border: '1px solid red',
+        }}>
 
-      <h1>My Projects</h1>
-   
-    </div>
+        <Weather />
+        <Weather />
+        <Weather />
+
+      </div>
+
+
+
     </>
-    
+
   )
 }

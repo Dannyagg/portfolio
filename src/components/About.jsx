@@ -35,7 +35,7 @@ export default function About() {
         <div className="about-message"
           style={{
             width: '22rem',
-            height: '18rem',
+            height: '15rem',
             padding: '10px',
             margin: '10px',
             backgroundColor: '#fbfaf9c8',
@@ -56,11 +56,9 @@ export default function About() {
               color: '#141109'
             }}>
             Lorem ipsum dolor sit amet consectetur adipisicing elit.
-            Minus sunt iste incidunt? Natus architecto labore dignissimos
-            reprehenderit tenetur aperiam rem </p>
+            Minus sunt iste incidunt?</p>
 
-          {/* <hr /> */}
-
+          <hr />
           <div
             className="contact-email"
             style={{
@@ -69,14 +67,14 @@ export default function About() {
               gap: '0.5rem'
             }}>
 
-            <p>email me </p>
+            <p>Email me </p>
             <Email />
           </div>
         </div>
 
       </div>
 
-     
+
 
     </>
   )

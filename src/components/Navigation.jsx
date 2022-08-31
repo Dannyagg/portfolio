@@ -12,7 +12,7 @@ export default function Navigation() {
           alignItem: 'center',
           alignItems: 'center',
           justifyContent: 'center',
-          padding: '20px',
+          padding: '10px',
           gap: '2rem',
           textShadow: '0.05em 0.05em 0.2em rgba(119, 72, 119, 0.5)'
         }}
@@ -22,7 +22,7 @@ export default function Navigation() {
         <Link to="/Skills">Skills</Link>
         <Link to="/Projects">Projects</Link>
       </nav>
-    
+    <hr />
     </>
   )
 }
