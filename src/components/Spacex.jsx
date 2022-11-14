@@ -1,10 +1,10 @@
 import React from 'react'
-import myWeatherWatch1 from '../images/myWeatherWatch1.png'
-import DemoButton from '../components/DemoButton'
+import Space from '../images/Space.png'
+import DemoButton from './DemoButton'
 import OpenInNewSharpIcon from '@mui/icons-material/OpenInNewSharp';
 import GitHubIcon from '@mui/icons-material/GitHub';
 
-export default function Weather() {
+export default function Spacex(props) {
     return (
         <>
             <div
@@ -17,11 +17,12 @@ export default function Weather() {
 
                 }}
             >
-                <img src={myWeatherWatch1} alt="my WeatherWatch"
+                <img src={Space} alt="space-tracker"
                     className="project-image"
                     style={{
                         width: '18rem',
-                        padding: '10px'
+                        padding:'10px'
+
                     }}
                 />
 
@@ -32,14 +33,13 @@ export default function Weather() {
                         backgroundColor: 'white',
                         padding: '10px',
                         maxWidth: '40rem',
+                        
                     }}
                 >
-                    <h3> Weather Watch</h3>
+                    <h3> Space X Launch Tracker</h3> 
 
                     <p>
-                        A weather application developed in ReactJS, CSS, and HTML. The application allows users to search and retrieve weekly weather information by zip code within the United States.
-                        Accomplished all tasks needed to successfully develop and deploy the weather watch application.
-
+                        Developed user interface for a front-end web application that tracks SpaceX's past and future space launches. Technologies used include JavaScript, HTML, and CSS SpaceX API, Bootstrap.
                     </p>
 
                     <div
@@ -54,25 +54,24 @@ export default function Weather() {
                         }}>
                         <div>
                             <DemoButton
-
-                                url='https://youtu.be/M9i57csh6Es'
+                            
+                                url='https://youtu.be/uCGkNDkwoO0'
 
                             />
                         </div>
 
                         <div>
                             <OpenInNewSharpIcon
-                                onClick={() => window.open('https://myweatherwatch.netlify.app/')}
+                                onClick={() => window.open('https://laughing-rosalind-85b6a0.netlify.app/index.html')}
                             /> website
                         </div>
 
                         <div>
                             <GitHubIcon
-                                onClick={() => window.open('https://github.com/Dannyagg/weatherwatch')}
+                                onClick={() => window.open('https://github.com/logancooper/SpaceXFanSite')}
                             /> github repo
                         </div>
                     </div>
-
                 </div>
 
             </div>

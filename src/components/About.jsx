@@ -3,7 +3,6 @@ import React from 'react';
 import me from '../images/me.jpg';
 import Email from './Email';
 
-
 export default function About() {
   return (
     <>
@@ -22,10 +21,9 @@ export default function About() {
         <div className="about-photo">
           <img src={me} alt=""
             style={{
-              width: '22rem',
-              height: '22rem',
+              width: '20rem',
               padding: '5px',
-              margin: '10px',
+              margin: '5px',
               borderRadius: '10%',
               boxShadow: 'rgba(0, 0, 0, 0.25) 0px 0.0625em 0.0625em, rgba(0, 0, 0, 0.25) 0px 0.125em 0.5em, rgba(255, 255, 255, 0.1) 0px 0px 0px 1px inset'
             }}
@@ -34,12 +32,11 @@ export default function About() {
 
         <div className="about-message"
           style={{
-            width: '22rem',
-            height: '15rem',
+            width: '32rem',
             padding: '10px',
-            margin: '10px',
             backgroundColor: '#fbfaf9c8',
             color: 'black',
+            borderRadius: '1%',
             boxShadow: 'rgba(0, 0, 0, 0.25) 0px 0.0625em 0.0625em, rgba(0, 0, 0, 0.25) 0px 0.125em 0.5em, rgba(241, 233, 233, 0.411) 0px 0px 0px 1px inset'
           }}
         >
@@ -55,15 +52,13 @@ export default function About() {
               fontSize: '20px',
               color: '#141109'
             }}>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit.
-            Minus sunt iste incidunt?</p>
+            Creative web developer and IT support specialist. Eager to develop, learn and apply modern technology solutions to improve application development and IT infrastructure. </p>
 
           <hr />
           <div
             className="contact-email"
             style={{
               display: 'flex',
-              // alignItems: 'center',
               gap: '0.5rem'
             }}>
 

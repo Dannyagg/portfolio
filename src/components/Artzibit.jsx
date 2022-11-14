@@ -1,10 +1,10 @@
 import React from 'react'
-import myWeatherWatch1 from '../images/myWeatherWatch1.png'
+import artzibitimage from '../images/artzibitimage.png'
 import DemoButton from '../components/DemoButton'
 import OpenInNewSharpIcon from '@mui/icons-material/OpenInNewSharp';
 import GitHubIcon from '@mui/icons-material/GitHub';
 
-export default function Weather() {
+export default function Artzibit() {
     return (
         <>
             <div
@@ -17,7 +17,7 @@ export default function Weather() {
 
                 }}
             >
-                <img src={myWeatherWatch1} alt="my WeatherWatch"
+                <img src={artzibitimage} alt="my WeatherWatch"
                     className="project-image"
                     style={{
                         width: '18rem',
@@ -34,12 +34,11 @@ export default function Weather() {
                         maxWidth: '40rem',
                     }}
                 >
-                    <h3> Weather Watch</h3>
+                    <h3> ArtZibit E-commerce  </h3>
 
                     <p>
-                        A weather application developed in ReactJS, CSS, and HTML. The application allows users to search and retrieve weekly weather information by zip code within the United States.
-                        Accomplished all tasks needed to successfully develop and deploy the weather watch application.
-
+                        An e-commerce web application developed with Reactjs, Javascript, CSS, and HTML. The application allows users to shop for products on a website that meets modern trends. The website is responsive and simple, allowing customers to have a great user experience.
+                        Accomplished all developments and deployment tasks
                     </p>
 
                     <div
@@ -54,21 +53,20 @@ export default function Weather() {
                         }}>
                         <div>
                             <DemoButton
-
-                                url='https://youtu.be/M9i57csh6Es'
+                                url='https://youtu.be/8psqnjvWQjg'
 
                             />
                         </div>
 
                         <div>
                             <OpenInNewSharpIcon
-                                onClick={() => window.open('https://myweatherwatch.netlify.app/')}
+                                onClick={() => window.open('https://artzibit.netlify.app/')}
                             /> website
                         </div>
 
                         <div>
                             <GitHubIcon
-                                onClick={() => window.open('https://github.com/Dannyagg/weatherwatch')}
+                                onClick={() => window.open('https://github.com/Dannyagg/my-gallery')}
                             /> github repo
                         </div>
                     </div>

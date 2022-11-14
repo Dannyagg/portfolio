@@ -1,7 +1,7 @@
 import React from 'react'
 import Weather from '../components/Weather'
-// import myWeatherWatch1 from '../images/myWeatherWatch1.png'
-// import DemoButton from '../components/DemoButton'
+import Spacex from './Spacex';
+import Artzibit from './Artzibit';
 
 export default function Projects() {
   return (
@@ -15,16 +15,13 @@ export default function Projects() {
           alignItems: 'center',
           gap: '1rem',
           margin: '20px',
-          // border: '1px solid red',
         }}>
 
         <Weather />
-        <Weather />
-        <Weather />
+        <Artzibit />
+        <Spacex />
 
       </div>
-
-
 
     </>
 

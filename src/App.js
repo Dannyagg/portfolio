@@ -33,7 +33,8 @@ function App() {
                   alignItems: 'center',
                   justifyContent: 'center',
                 }}>
-                <p id="error" >There's nothing here! Return to <span><Link to="/">Home Page</Link></span>  </p>
+                <p 
+                id="error" >There's nothing here! Return to <span><Link to="/">Home Page</Link></span>  </p>
 
               </main>
             }

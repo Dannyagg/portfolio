@@ -32,9 +32,13 @@ main > p > span :hover {
   color: rgb(15, 28, 208);
   text-decoration: none;
 }
+main > p {
+  color: rgb(243, 240, 240);
+}
 
 main > p > span > a {
-  text-decoration: none;
+  /* text-decoration: none; */
+  color: rgb(173, 176, 221);
 }
 
 /* navigation styles */
@@ -44,27 +48,30 @@ nav > a {
   text-decoration: none;
 }
 
-nav a:selected { 
-  background-color: red;
+nav a:focus {
+  color: #f7bbbb;
+  transform: scale(1.5);
+  transition: 300ms;
+  gap: 2rem;
 }
 
 nav a:hover {
   text-decoration: underline;
-  /* color: #55acee; */
   color: #f7bbbb;
 }
 
 /* email */
 
 svg:hover {
-  color: #f7bbbb;
-  /* color: #e3cece; */
+  color: #311616;
+  transform: scale(1.5);
+  transition: 300ms;
   text-decoration: underline;
 }
 
 /* Skills-Icons */
 
-.SkillsIcons> i {
+.SkillsIcons > i {
   font-size: 50px;
   margin: 5px;
   padding: 10px;
@@ -73,6 +80,31 @@ svg:hover {
   /* box-shadow: rgb(54, 71, 89) 0px 20px 30px -10px; */
 }
 
+.demo-button:hover {
+  background-color: #916d6d;
+  border-color: #916d6d;
+}
+
+.demo-button {
+  color: black;
+  border-color: #916d6d;
+}
+
+.verify:hover {
+  text-decoration: underline;
+  background-color: #916d6d;
+}
+
+/* .verify {
+  text-decoration: underline;
+} */
+
+.resume:hover {
+  background-color: #916d6d;
+}
+.resume {
+  background-color: #916d6d;
+}
 
 /* footer styles */
 
@@ -80,11 +112,10 @@ svg:hover {
   display: flex;
   flex-direction: column;
   text-align: center;
-  /* margin-bottom: 20px; */
   position: relative;
   bottom: 0;
-  left:0;
-  right:0;
+  left: 0;
+  right: 0;
   width: 100%;
 }
 

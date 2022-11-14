@@ -3,8 +3,9 @@ import Button from 'react-bootstrap/Button';
 import Modal from 'react-bootstrap/Modal';
 import { useState } from 'react';
 import ReactPlayer from 'react-player'
+import PlayArrowIcon from '@mui/icons-material/PlayArrow';
 
-export default function DemoButton() {
+export default function DemoButton(props) {
 
     const [show, setShow] = useState(false);
     const handleClose = () => setShow(false);
@@ -13,8 +14,10 @@ export default function DemoButton() {
     return (
 
         <>
-            <Button variant="primary" onClick={handleShow}>
+            <Button variant="outline-success" onClick={handleShow} className=" demo-button"
+            >
                 Watch Demo
+                <PlayArrowIcon sx={{ height: 38, width: 38 }} />
             </Button>
             <Modal
                 show={show}
@@ -36,7 +39,7 @@ export default function DemoButton() {
 
                 >
                     <ReactPlayer 
-                    url='https://youtu.be/M9i57csh6Es'
+                    url={props.url}
                         controls={true}
                         playings={false}
                         volume={1}
