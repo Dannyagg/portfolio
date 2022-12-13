@@ -1,5 +1,5 @@
 import React from 'react'
-import myWeatherWatch1 from '../images/myWeatherWatch1.png'
+import weather from '../images/weather.png'
 import DemoButton from '../components/DemoButton'
 import OpenInNewSharpIcon from '@mui/icons-material/OpenInNewSharp';
 import GitHubIcon from '@mui/icons-material/GitHub';
@@ -12,16 +12,15 @@ export default function Weather() {
                     display: 'flex',
                     flexFlow: 'row wrap',
                     justifyContent: 'center',
-                    margin: 'auto',
                     boxShadow: 'rgba(0, 0, 0, 0.25) 0px 0.0625em 0.0625em, rgba(0, 0, 0, 0.25) 0px 0.125em 0.5em, rgba(241, 233, 233, 0.411) 0px 0px 0px 1px inset',
 
                 }}
             >
-                <img src={myWeatherWatch1} alt="my WeatherWatch"
+                <img src={weather} alt="my WeatherWatch"
                     className="project-image"
                     style={{
-                        width: '18rem',
-                        padding: '10px'
+                        width: '24rem',
+                        padding: '5px',
                     }}
                 />
 

@@ -13,6 +13,7 @@ body {
   text-decoration: none;
 }
 
+
 body {
   background-color: #b29999;
   background-image: linear-gradient(rgba(25, 14, 14, 0.9), rgba(0, 0, 0, 0.1)),
@@ -77,7 +78,6 @@ svg:hover {
   padding: 10px;
   border-radius: 5px;
   background-color: rgba(255, 255, 255, 0.946);
-  /* box-shadow: rgb(54, 71, 89) 0px 20px 30px -10px; */
 }
 
 .demo-button:hover {
@@ -95,15 +95,12 @@ svg:hover {
   background-color: #916d6d;
 }
 
-/* .verify {
-  text-decoration: underline;
-} */
 
 .resume:hover {
   background-color: #916d6d;
 }
 .resume {
-  background-color: #916d6d;
+  background-color: #b38f8fba;
 }
 
 /* footer styles */
@@ -157,25 +154,24 @@ svg:hover {
   color: white;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+/* @media only screen and (max-width: 600px) {
+  .project-image {
+   object-fit: cover;
   }
-  to {
-    transform: rotate(360deg);
+} */
+
+/* @media only screen and (min-width: 1200px) {
+    body {
+    background-color: lightblue;
   }
-}
+} */
+
 
 /* google fonts import */
 @import url("https://fonts.googleapis.com/css?family=Cairo");
 html,
 body {
   font-family: "Cairo", sans-serif;
-  /* font-size: 48px; */
+
 }

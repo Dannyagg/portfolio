@@ -30,10 +30,3 @@ const HeaderWrapper = styled.section`
 `;
 
 
-// const Title = styled.h1`
-//   font-size: 30px;
-//   text-align: center;
-//   /* color: white; */
-//   text-shadow: 4px 4px 4px #000a06;
-//   text-decoration: none; 
-// `;

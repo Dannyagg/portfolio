@@ -15,10 +15,7 @@ export default function Skills() {
           alignItems: 'center',
           justifyContent: 'center',
           margin: 'auto',
-          // padding: '20px',
-          // minHeight: '100%',
           height: '100vh',
-          // position:'relative',
           // border: '1px solid red'
         }}
       >
@@ -51,10 +48,9 @@ export default function Skills() {
           <i class="devicon-git-plain-wordmark colored"></i>
           <i class="devicon-html5-plain-wordmark colored"></i>
           <i class="devicon-css3-plain-wordmark colored"></i>
-          {/* <i class="devicon-python-plain-wordmark colored"></i> */}
           <i class="devicon-bootstrap-plain-wordmark colored"></i>
           <i class="devicon-postgresql-plain-wordmark colored"></i>
-          {/* <i class="devicon-sequelize-plain-wordmark colored"></i> */}
+       
         </div>
         <hr />
 
@@ -153,14 +149,11 @@ export default function Skills() {
           >
             <Button
               target="_blank"
-              // variant="outline-danger"
               className='resume'
               style={{
                 width: '200px',
                 color: 'white',
                 border: 'none',
-                // border:'none',
-                // border: '1px solid white',
                 boxShadow: 'rgba(0, 0, 0, 0.25) 0px 0.0625em 0.0625em, rgba(0, 0, 0, 0.25) 0px 0.125em 0.5em, rgba(241, 233, 233, 0.411) 0px 0px 0px 1px inset',
               }}
 
@@ -170,9 +163,10 @@ export default function Skills() {
           </div>
 
         </div>
-
+        
       </div>
 
     </>
   )
 }
+
