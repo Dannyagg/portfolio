@@ -21,6 +21,7 @@ export default function Footer() {
 
                     }}
                     > &copy; {new Date().getFullYear()} Daniel Agbenu </h6>
+
                 </div>
 
             </div>

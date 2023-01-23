@@ -16,7 +16,7 @@ export function Email() {
     }}>
 
     <BiEnvelope
-      title='Click to email Me'
+      title='Contact Me'
       className="envelope"
       style={{
         fontSize: '30px',

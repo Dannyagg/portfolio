@@ -13,7 +13,6 @@ body {
   text-decoration: none;
 }
 
-
 body {
   background-color: #b29999;
   background-image: linear-gradient(rgba(25, 14, 14, 0.9), rgba(0, 0, 0, 0.1)),
@@ -91,16 +90,16 @@ svg:hover {
 }
 
 .verify:hover {
-  text-decoration: underline;
   background-color: #916d6d;
+  visibility: visible;
 }
-
 
 .resume:hover {
   background-color: #916d6d;
 }
 .resume {
-  background-color: #b38f8fba;
+  margin: 10px;
+  background-color: #dc2424d5;
 }
 
 /* footer styles */
@@ -154,7 +153,6 @@ svg:hover {
   color: white;
 }
 
-
 /* @media only screen and (max-width: 600px) {
   .project-image {
    object-fit: cover;
@@ -167,11 +165,9 @@ svg:hover {
   }
 } */
 
-
 /* google fonts import */
 @import url("https://fonts.googleapis.com/css?family=Cairo");
 html,
 body {
   font-family: "Cairo", sans-serif;
-
 }

@@ -45,6 +45,12 @@ export default function About() {
               display: 'flex',
             }}
           > Daniel Agbenu Jr </h2>
+        
+          <h6
+            style={{
+              display: 'flex',
+            }}
+          > Cybersecurity | IT Technical Support | Web Development</h6>
           <hr />
 
           <p
@@ -52,7 +58,7 @@ export default function About() {
               fontSize: '20px',
               color: '#141109'
             }}>
-            Creative web developer and IT support specialist. Eager to develop, learn and apply modern technology solutions to improve application development and IT infrastructure. </p>
+             Versatile Information Technology professional eager to develop, learn and apply modern technology solutions to improve web applications and IT infrastructure. </p>
 
           <hr />
           
@@ -63,14 +69,13 @@ export default function About() {
               gap: '0.5rem'
             }}>
 
-            <p>Email me </p>
+            
             <Email />
           </div>
+
         </div>
 
       </div>
-
-
 
     </>
   )
