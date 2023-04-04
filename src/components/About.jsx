@@ -1,6 +1,6 @@
 
 import React from 'react';
-import me from '../images/me.jpg';
+import me2 from '../images/me2.jpg';
 import Email from './Email';
 
 export default function About() {
@@ -19,9 +19,9 @@ export default function About() {
         }}
       >
         <div className="about-photo">
-          <img src={me} alt=""
+          <img src={me2} alt=""
             style={{
-              width: '20rem',
+              width: '18rem',
               padding: '5px',
               margin: '5px',
               borderRadius: '1%',

@@ -37,7 +37,7 @@ export default function Artzibit() {
 
                     <p>
                         An e-commerce web application developed with Reactjs, Javascript, CSS, and HTML. The application allows users to shop for products on a website that meets modern trends. The website is responsive and simple, allowing customers to have a great user experience.
-                        Accomplished all developments and deployment tasks
+                        Accomplished all developments and deployment tasks.
                     </p>
 
                     <div

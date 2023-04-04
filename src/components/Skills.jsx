@@ -164,10 +164,9 @@ export default function Skills() {
               alignItems: 'center',
               justifyContent: 'center',
               gap: '1rem',
-              borderBottom: '1px solid white',
-              borderRight: '1px solid white',
-              
-              // borderRadius:'5px'
+              borderBottom: '2px solid white',
+              borderRight: '2px solid white',
+              borderRadius:'10px'
 
             }}
           >
