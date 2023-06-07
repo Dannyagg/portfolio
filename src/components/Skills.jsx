@@ -1,7 +1,7 @@
 import React from 'react'
 import aplus from '../images/aplus.png';
 import SecurityPlus from '../images/SecurityPlus.png';
-import resume from '../resume/resume.pdf'
+import resume2023 from '../resume/resume2023.pdf'
 import Button from 'react-bootstrap/Button';
 
 
@@ -93,6 +93,7 @@ export default function Skills() {
               variant="outline-primary"
               href="https://www.credly.com/badges/c81d53d0-28f5-46d4-9d6d-3d4737040ec1/public_url" target="_blank" rel="noopener">Verify on cedly.com
             </Button>
+            
           </div>
 
         </div>
@@ -178,7 +179,7 @@ export default function Skills() {
                 border: 'none',
               }}
 
-              href={resume} _blank > View my resume
+              href={resume2023} _blank > View my resume
 
             </Button>
 

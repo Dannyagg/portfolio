@@ -5,7 +5,7 @@ import { BiEnvelope } from 'react-icons/bi';
 export function Email() {
   return (
   <>
-  <Mailto email="borgadee@gmail.com" obfuscate={true}
+  <Mailto email="dannyajunior@yahoo.com" obfuscate={true}
     className="mailto"
     style={{
       justifyContent: 'center',

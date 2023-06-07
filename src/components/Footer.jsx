@@ -12,7 +12,7 @@ export default function Footer() {
                     <h5> Follow Me </h5>
 
                     <a href='https://github.com/Dannyagg' target='_blank' title='my github repo' className='fa fa-github' rel="noreferrer"></a>
-                    <a href='https://www.linkedin.com/in/daniel-a-5a9294149/' target='_blank' title='linkedin' className='fa fa-linkedin' rel="noreferrer"></a>
+                    <a href='https://www.linkedin.com/in/daniel-agbenu/' target='_blank' title='linkedin' className='fa fa-linkedin' rel="noreferrer"></a>
                     <a href='https://twitter.com/Jayborga' target='_blank' title='twitter' className='fa fa-twitter' rel="noreferrer"></a>
                     <h6
                     style={{
