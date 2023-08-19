@@ -58,7 +58,7 @@ export default function About() {
               fontSize: '20px',
               color: '#141109'
             }}>
-             Versatile Information Technology professional eager to develop, learn and apply modern technology solutions to improve web applications and IT infrastructure. </p>
+            Information Technology professional with a passion for innovation and continuous learning. My goal is to implement cutting-edge technology solutions to enhance and safeguard IT infrastructure. </p>
 
           <hr />
           

@@ -1,6 +1,7 @@
 import React from 'react'
 import aplus from '../images/aplus.png';
-import SecurityPlus from '../images/SecurityPlus.png';
+import netplus from '../images/netplus.png';
+import securityplus from '../images/securityplus.png';
 import resume2023 from '../resume/resume2023.pdf'
 import Button from 'react-bootstrap/Button';
 
@@ -32,7 +33,7 @@ export default function Skills() {
 
         </div>
 
-
+       
         <div
           className="SkillsIcons"
           style={{
@@ -69,6 +70,30 @@ export default function Skills() {
             </Button>
           </div>
 
+          {/*Net plus */}
+
+          <div
+            style={{
+              display: 'flex',
+              flexDirection: 'column',
+              alignItems: 'center',
+              justifyContent: 'center',
+              gap: '1rem',
+              
+            }}
+          >
+            <img src={netplus} alt="comptia-nplus" width="150" className='Certs' />
+
+            <Button className='verify'
+              style={{
+                color: 'white',
+                border: 'none',
+              }}
+              variant="outline-primary"
+              href="https://www.credly.com/earner/earned/badge/7f28163b-1219-4e2e-87f8-0a05b410cc8d" target="_blank" rel="noopener">Verify on cedly.com
+            </Button>
+          </div>
+
 
           {/* Security plus */}
 
@@ -83,7 +108,7 @@ export default function Skills() {
             }}
           >
             <img 
-            src={SecurityPlus} alt="comptia-aplus" width="150" className='Certs' />
+            src={securityplus} alt="comptia-aplus" width="150" className='Certs' />
 
             <Button className='verify'
               style={{
