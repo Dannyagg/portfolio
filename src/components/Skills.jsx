@@ -2,7 +2,8 @@ import React from 'react'
 import aplus from '../images/aplus.png';
 import netplus from '../images/netplus.png';
 import securityplus from '../images/securityplus.png';
-import resume2023 from '../resume/resume2023.pdf'
+import itil4 from '../images/ITIL4.png';
+import resume2023 from '../resume/resume2003.pdf';
 import Button from 'react-bootstrap/Button';
 
 
@@ -120,10 +121,49 @@ export default function Skills() {
             </Button>
             
           </div>
+          {/* ITIL */}
+
+          <div
+            style={{
+              display: 'flex',
+              flexDirection: 'column',
+              alignItems: 'center',
+              justifyContent: 'center',
+              gap: '1rem'
+
+            }}
+          >
+            <img
+              src={itil4} alt="itil" width="135" className='Certs' />
+
+            <Button className='verify'
+              style={{
+                color: 'white',
+                border: 'none',
+              }}
+              variant="outline-primary"
+              href="https://candidate.peoplecert.org/ReportsSORLink.aspx?argType=1&id=DCB031175DAEA1E2B4060EA5547DC2B5E0C0BB173B0B89D284EAB800C06EC8FCE737AF8D3B2B34454455E845AB0670964FEA50F8D538687D" target="_blank" rel="noopener">Verify on PeopleCert
+            </Button>
+
+          </div>
+         
 
         </div>
         <hr />
+        <div
         
+          style={{
+            display: 'flex',
+            flexDirection: 'column',
+            alignItems: 'center',
+            justifyContent: 'center',
+            color: 'white',
+            border: 'none'
+
+          }}
+        >
+          <h6>Web Development Skills</h6>
+        </div>
         <div
           className="SkillsIcons"
           style={{

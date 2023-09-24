@@ -10,7 +10,7 @@ export default function Header() {
         <Link to="/"> <h1
           style={{
             color: 'white',
-            fontSize: '50px',
+            fontSize: '60px',
             textShadow: '4px 4px 4px #000a06',
             padding: '30px'
           }}

@@ -14,7 +14,6 @@ export function Email() {
       color: '#392304',
       textDecoration: 'none'
     }}>
-
     <BiEnvelope
       title='Contact Me'
       className="envelope"

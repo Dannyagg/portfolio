@@ -13,13 +13,13 @@ export default function Navigation() {
           alignItems: 'center',
           justifyContent: 'center',
           padding: '10px',
-          gap: '2rem',
+          gap: '3rem',
           textShadow: '0.05em 0.05em 0.2em rgba(119, 72, 119, 0.5)'
         }}
       >
 
         <Link to="/">About</Link>
-        <Link to="/Skills">Skills</Link>
+        <Link to="/Skills"> Certifictaions</Link>
         <Link to="/Projects">Projects</Link>
       </nav>
     <hr />
