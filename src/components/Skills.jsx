@@ -34,7 +34,6 @@ export default function Skills() {
 
         </div>
 
-       
         <div
           className="SkillsIcons"
           style={{
@@ -80,7 +79,7 @@ export default function Skills() {
               alignItems: 'center',
               justifyContent: 'center',
               gap: '1rem',
-              
+
             }}
           >
             <img src={netplus} alt="comptia-nplus" width="150" className='Certs' />
@@ -108,8 +107,8 @@ export default function Skills() {
 
             }}
           >
-            <img 
-            src={securityplus} alt="comptia-aplus" width="150" className='Certs' />
+            <img
+              src={securityplus} alt="comptia-aplus" width="150" className='Certs' />
 
             <Button className='verify'
               style={{
@@ -119,7 +118,7 @@ export default function Skills() {
               variant="outline-primary"
               href="https://www.credly.com/badges/c81d53d0-28f5-46d4-9d6d-3d4737040ec1/public_url" target="_blank" rel="noopener">Verify on cedly.com
             </Button>
-            
+
           </div>
           {/* ITIL */}
 
@@ -140,18 +139,20 @@ export default function Skills() {
               style={{
                 color: 'white',
                 border: 'none',
+
               }}
               variant="outline-primary"
               href="https://candidate.peoplecert.org/ReportsSORLink.aspx?argType=1&id=DCB031175DAEA1E2B4060EA5547DC2B5E0C0BB173B0B89D284EAB800C06EC8FCE737AF8D3B2B34454455E845AB0670964FEA50F8D538687D" target="_blank" rel="noopener">Verify on PeopleCert
             </Button>
 
           </div>
-         
+
 
         </div>
         <hr />
-        <div
         
+        <div
+
           style={{
             display: 'flex',
             flexDirection: 'column',
@@ -162,7 +163,16 @@ export default function Skills() {
 
           }}
         >
-          <h6>Web Development Skills</h6>
+          <h6
+
+            style={{
+
+              textShadow: '4px 4px 4px #000a06',
+
+            }}
+
+
+          >Web Development Skills</h6>
         </div>
         <div
           className="SkillsIcons"
@@ -232,7 +242,7 @@ export default function Skills() {
               gap: '1rem',
               borderBottom: '2px solid white',
               borderRight: '2px solid white',
-              borderRadius:'10px'
+              borderRadius: '10px'
 
             }}
           >
@@ -248,13 +258,13 @@ export default function Skills() {
 
             </Button>
 
-            
+
           </div>
 
 
-<div>
-  
-</div>
+          <div>
+
+          </div>
 
         </div>
 

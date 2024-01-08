@@ -19,7 +19,7 @@ export default function Navigation() {
       >
 
         <Link to="/">About</Link>
-        <Link to="/Skills"> Certifictaions</Link>
+        <Link to="/Skills"> Certifications</Link>
         <Link to="/Projects">Projects</Link>
       </nav>
     <hr />

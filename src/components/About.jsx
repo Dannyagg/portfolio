@@ -50,7 +50,7 @@ export default function About() {
             style={{
               display: 'flex',
             }}
-          > IT Technical Support | Cybersecurity | Web Development</h6>
+          > IT Networking | Cybersecurity | Web Development</h6>
           <hr />
 
           <p
