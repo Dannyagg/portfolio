@@ -46,12 +46,19 @@ export default function About() {
               display: 'flex',
             }}
           > Daniel Agbenu Jr </h2>
-        
-          <h6
+<h6
             style={{
               display: 'flex',
             }}
-          > IT Networking | Cybersecurity | Web Development</h6>
+          > IT Networking | Cybersecurity</h6>
+
+ <h6
+            style={{
+              display: 'flex',
+            }}
+          > CCNA | CompTIA Net+, Sec+, A+ | ITIL4 Foundation Certified </h6>
+       
+          
           <hr />
 
           <p

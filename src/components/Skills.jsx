@@ -3,6 +3,7 @@ import aplus from '../images/aplus.png';
 import netplus from '../images/netplus.png';
 import securityplus from '../images/securityplus.png';
 import itil4 from '../images/ITIL4.png';
+import ccna from '../images/CCNA.jpg';
 import resume2023 from '../resume/resume2003.pdf';
 import Button from 'react-bootstrap/Button';
 
@@ -46,7 +47,7 @@ export default function Skills() {
 
           }}>
 
-          {/* A plus */}
+            {/* CCNA */}
 
           <div
             style={{
@@ -54,23 +55,29 @@ export default function Skills() {
               flexDirection: 'column',
               alignItems: 'center',
               justifyContent: 'center',
-              gap: '1rem'
-
+              gap: '1rem',
+               
             }}
           >
-            <img src={aplus} alt="comptia-aplus" width="150" className='Certs' />
+            <img src={ccna} alt="comptia-nplus" width="135" className='Certs' 
+            
+            />
 
             <Button className='verify'
               style={{
                 color: 'white',
                 border: 'none',
+
               }}
               variant="outline-primary"
-              href="https://www.credly.com/badges/316e572c-a299-416e-b155-25314a859555/public_url" target="_blank" rel="noopener">Verify on cedly.com
+              href="https://www.credly.com/badges/3012c4e6-ecc0-444c-ac62-e3dcb7e08b5a/public_url">Verify on credly.com
             </Button>
           </div>
 
-          {/*Net plus */}
+
+          {/* Security plus */}
+
+            {/*Net plus */}
 
           <div
             style={{
@@ -90,7 +97,7 @@ export default function Skills() {
                 border: 'none',
               }}
               variant="outline-primary"
-              href="https://www.credly.com/earner/earned/badge/7f28163b-1219-4e2e-87f8-0a05b410cc8d" target="_blank" rel="noopener">Verify on cedly.com
+              href="https://www.credly.com/earner/earned/badge/7f28163b-1219-4e2e-87f8-0a05b410cc8d" target="_blank" rel="noopener">Verify on credly.com
             </Button>
           </div>
 
@@ -116,10 +123,36 @@ export default function Skills() {
                 border: 'none',
               }}
               variant="outline-primary"
-              href="https://www.credly.com/badges/c81d53d0-28f5-46d4-9d6d-3d4737040ec1/public_url" target="_blank" rel="noopener">Verify on cedly.com
+              href="https://www.credly.com/badges/c81d53d0-28f5-46d4-9d6d-3d4737040ec1/public_url" target="_blank" rel="noopener">Verify on credly.com
             </Button>
 
           </div>
+
+          {/* A plus */}
+
+          <div
+            style={{
+              display: 'flex',
+              flexDirection: 'column',
+              alignItems: 'center',
+              justifyContent: 'center',
+              gap: '1rem'
+
+            }}
+          >
+            <img src={aplus} alt="comptia-aplus" width="150" className='Certs' />
+
+            <Button className='verify'
+              style={{
+                color: 'white',
+                border: 'none',
+              }}
+              variant="outline-primary"
+              href="https://www.credly.com/badges/316e572c-a299-416e-b155-25314a859555/public_url" target="_blank" rel="noopener">Verify on credly.com
+            </Button>
+          </div>
+
+          
           {/* ITIL */}
 
           <div
@@ -172,7 +205,7 @@ export default function Skills() {
             }}
 
 
-          >Web Development Skills</h6>
+          >Application Programming  Skills</h6>
         </div>
         <div
           className="SkillsIcons"
