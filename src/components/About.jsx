@@ -45,7 +45,7 @@ export default function About() {
             style={{
               display: 'flex',
             }}
-          > Daniel Agbenu Jr </h2>
+          > Daniel Agbenu </h2>
 <h6
             style={{
               display: 'flex',
