@@ -45,7 +45,8 @@ main > p > span > a {
 nav > a {
   font-size: 1.2em;
   color: white;
-  text-decoration: none;
+  text-decoration: underline;
+
 }
 
 nav a:focus {
@@ -85,7 +86,7 @@ svg:hover {
 }
 
 .demo-button {
-  color: black;
+  color: rgb(235, 85, 85);
   border-color: #916d6d;
 }
 

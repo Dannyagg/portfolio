@@ -8,6 +8,8 @@ export default function Navigation() {
       <Header />
       <nav
         style={{
+          backgroundColor: '#453737',
+          backdropFilter: 'blur(10px)',
           display: 'flex',
           alignItem: 'center',
           alignItems: 'center',

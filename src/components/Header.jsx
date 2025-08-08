@@ -12,7 +12,7 @@ export default function Header() {
             color: 'white',
             fontSize: '60px',
             textShadow: '4px 4px 4px #000a06',
-            padding: '30px'
+            padding: '20px'
           }}
 
         > My Portfolio</h1> </Link>

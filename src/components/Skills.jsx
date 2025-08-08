@@ -59,7 +59,7 @@ export default function Skills() {
                
             }}
           >
-            <img src={ccna} alt="comptia-nplus" width="135" className='Certs' 
+            <img src={ccna} alt="comptia-nplus" width="100" className='Certs' 
             
             />
 
@@ -89,7 +89,7 @@ export default function Skills() {
 
             }}
           >
-            <img src={netplus} alt="comptia-nplus" width="150" className='Certs' />
+            <img src={netplus} alt="comptia-nplus" width="110" className='Certs' />
 
             <Button className='verify'
               style={{
@@ -115,7 +115,7 @@ export default function Skills() {
             }}
           >
             <img
-              src={securityplus} alt="comptia-aplus" width="150" className='Certs' />
+              src={securityplus} alt="comptia-aplus" width="110" className='Certs' />
 
             <Button className='verify'
               style={{
@@ -140,7 +140,7 @@ export default function Skills() {
 
             }}
           >
-            <img src={aplus} alt="comptia-aplus" width="150" className='Certs' />
+            <img src={aplus} alt="comptia-aplus" width="110" className='Certs' />
 
             <Button className='verify'
               style={{
@@ -166,7 +166,7 @@ export default function Skills() {
             }}
           >
             <img
-              src={itil4} alt="itil" width="135" className='Certs' />
+              src={itil4} alt="itil" width="100" className='Certs' />
 
             <Button className='verify'
               style={{
@@ -179,7 +179,6 @@ export default function Skills() {
             </Button>
 
           </div>
-
 
         </div>
         <hr />
@@ -197,11 +196,8 @@ export default function Skills() {
           }}
         >
           <h6
-
             style={{
-
               textShadow: '4px 4px 4px #000a06',
-
             }}
 
 
@@ -214,6 +210,7 @@ export default function Skills() {
             flexFlow: 'row wrap',
             alignItems: 'center',
             justifyContent: 'center',
+            marginTop: '10px'
           }} >
 
           <i class="devicon-javascript-plain colored"></i>
@@ -291,18 +288,11 @@ export default function Skills() {
 
             </Button>
 
-
           </div>
-
-
           <div>
-
           </div>
-
         </div>
-
       </div>
-
     </>
   )
 }

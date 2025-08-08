@@ -24,7 +24,7 @@ export default function About() {
               width: '20rem',
               padding: '5px',
               margin: '5px',
-              borderRadius: '2%',
+              borderRadius: '1%',
               boxShadow: 'rgba(0, 0, 0, 0.25) 0px 0.0625em 0.0625em, rgba(0, 0, 0, 0.25) 0px 0.125em 0.5em, rgba(255, 255, 255, 0.1) 0px 0px 0px 1px inset'
             }}
           />
@@ -37,7 +37,7 @@ export default function About() {
             margin: '5px',
             backgroundColor: '#fbfaf9c8',
             color: 'black',
-            borderRadius: '1%',
+           borderRadius: '1%',
             boxShadow: 'rgba(0, 0, 0, 0.25) 0px 0.0625em 0.0625em, rgba(0, 0, 0, 0.25) 0px 0.125em 0.5em, rgba(241, 233, 233, 0.411) 0px 0px 0px 1px inset'
           }}
         >
