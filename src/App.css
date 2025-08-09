@@ -21,7 +21,8 @@ body {
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: center;
-  background-size: auto, 100%, 100%;
+  background-size: cover;
+  
 
   /* background-size: cover; */
 }
@@ -118,6 +119,7 @@ svg:hover {
 
 .social {
   padding: 10px;
+  margin-top: 40px;
 }
 
 .social h5 {

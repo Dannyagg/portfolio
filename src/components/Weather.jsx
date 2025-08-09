@@ -19,8 +19,8 @@ export default function Weather() {
                 <img src={weather} alt="my WeatherWatch"
                     className="project-image"
                     style={{
-                        width: '24rem',
-                        padding: '5px',
+                        width: '20rem',
+                        padding: '10px',
                     }}
                 />
 

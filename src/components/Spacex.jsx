@@ -19,8 +19,8 @@ export default function Spacex(props) {
                 <img src={space} alt="space-tracker"
                     className="project-image"
                     style={{
-                        width: '24rem',
-                        padding: '5px'
+                        width: '20rem',
+                        padding: '10px'
 
                     }}
                 />
