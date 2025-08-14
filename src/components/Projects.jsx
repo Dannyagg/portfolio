@@ -14,7 +14,7 @@ export default function Projects() {
           justifyContent: 'center',
           alignItems: 'center',
           gap: '1rem',
-          margin: '20px',
+         
         }}>
 
         <Weather />

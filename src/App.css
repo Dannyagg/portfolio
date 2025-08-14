@@ -22,9 +22,7 @@ body {
   background-attachment: fixed;
   background-position: center;
   background-size: cover;
-  
 
-  /* background-size: cover; */
 }
 
 /* error message styles */
@@ -47,13 +45,14 @@ nav > a {
   font-size: 1.2em;
   color: white;
   text-decoration: underline;
-
+  transform: matrix(1, 0, 0, 1, 0, 0);
 }
 
 nav a:focus {
   color: #f7bbbb;
   transform: scale(1.5);
-  transition: 300ms;
+  transition: 1000ms;
+  pointer-events: auto;
   gap: 2rem;
 }
 
@@ -174,4 +173,3 @@ html,
 body {
   font-family: "Cairo", sans-serif;
 }
-

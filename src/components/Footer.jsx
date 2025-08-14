@@ -25,7 +25,7 @@ export default function Footer() {
           <a
             href="https://twitter.com/Jayborga"
             target="_blank"
-            title="twitter"
+            title="X"
             className="fa fa-twitter"
             rel="noreferrer"
           ></a>

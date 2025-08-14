@@ -1,6 +1,5 @@
 import React from "react";
-import art from "../images/art.png";
-import DemoButton from "../components/DemoButton";
+import ReactPlayer from "react-player";
 import OpenInNewSharpIcon from "@mui/icons-material/OpenInNewSharp";
 import GitHubIcon from "@mui/icons-material/GitHub";
 
@@ -16,15 +15,32 @@ export default function Artzibit() {
             "rgba(0, 0, 0, 0.25) 0px 0.0625em 0.0625em, rgba(0, 0, 0, 0.25) 0px 0.125em 0.5em, rgba(241, 233, 233, 0.411) 0px 0px 0px 1px inset",
         }}
       >
-        <img
-          src={art}
-          alt="my WeatherWatch"
-          className="project-image"
+        <div
           style={{
-            width: "20rem",
-            padding: "10px",
+            width: "100%",
+            height: "100%",
+            maxWidth: "30rem",
+            aspectRatio: "16/9",
+            backgroundSize: "auto",
           }}
-        />
+        >
+          <ReactPlayer
+            src="https://youtu.be/8psqnjvWQjg"
+            controls={true}
+            preload={true}
+            playing={false}
+            volume={1}
+            muted={true}
+            pip={true}
+            stopOnUnmount={false}
+            style={{
+              width: "100%",
+              height: "100%",
+              maxWidth: "40rem",
+              aspectRatio: "16/9",
+            }}
+          />
+        </div>
 
         <div
           className="description-container"
@@ -35,7 +51,7 @@ export default function Artzibit() {
             maxWidth: "40rem",
           }}
         >
-          <h3> ArtZibit E-commerce </h3>
+          <h3> ArtZibit e-Commerce </h3>
 
           <p>
             An e-commerce web application developed with Reactjs, Javascript,
@@ -54,10 +70,6 @@ export default function Artzibit() {
               gap: "1rem",
             }}
           >
-            <div>
-              <DemoButton url="https://youtu.be/8psqnjvWQjg" />
-            </div>
-
             <div>
               <OpenInNewSharpIcon
                 onClick={() => window.open("https://artzibit.netlify.app/")}
