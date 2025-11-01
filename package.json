@@ -19,7 +19,7 @@
     "react-mailto": "^0.4.0",
     "react-player": "^3.3.1",
     "react-router-dom": "^7.8.0",
-  "react-scripts": "^5.0.1",
+    "react-scripts": "^5.0.1",
     "reactv16-mailto": "^0.4.4",
     "styled-components": "^6.1.19",
     "web-vitals": "^5.1.0"
