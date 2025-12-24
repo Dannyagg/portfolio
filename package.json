@@ -20,6 +20,7 @@
     "react-player": "^3.3.3",
     "react-router-dom": "^7.9.5",
     "react-scripts": "^5.0.1",
+    "react-youtube": "^10.1.0",
     "reactv16-mailto": "^0.4.4",
     "styled-components": "^6.1.19",
     "web-vitals": "^5.1.0"

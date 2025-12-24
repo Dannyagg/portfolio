@@ -1,12 +1,20 @@
 /* eslint-disable jsx-a11y/anchor-has-content */
 import React from "react";
+import { useTheme } from "../context/ThemeContext";
 
 export default function Footer() {
+  const { theme } = useTheme();
   return (
     <>
-      <div className="footer">
+      <div 
+        className="footer"
+        style={{
+          backgroundColor: theme.background,
+          transition: 'background-color 0.3s ease',
+        }}
+      >
         <div className="social">
-          <h5> Let's Connect </h5>
+          <h5 style={{ color: theme.primaryText, transition: 'color 0.3s ease' }}> Let's Connect </h5>
 
           <a
             href="https://github.com/Dannyagg"
@@ -33,6 +41,8 @@ export default function Footer() {
             style={{
               padding: "10px",
               fontSize: "10px",
+              color: theme.primaryText,
+              transition: 'color 0.3s ease',
             }}
           >
             {" "}

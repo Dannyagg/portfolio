@@ -1,9 +1,11 @@
 import React from "react";
-import ReactPlayer from "react-player";
+import YouTube from "react-youtube";
 import OpenInNewSharpIcon from "@mui/icons-material/OpenInNewSharp";
 import GitHubIcon from "@mui/icons-material/GitHub";
+import { useTheme } from "../context/ThemeContext";
 
 export default function Weather() {
+  const { theme } = useTheme();
   return (
     <>
       <div
@@ -11,34 +13,45 @@ export default function Weather() {
           display: "flex",
           flexFlow: "row wrap",
           justifyContent: "center",
+          borderRadius: "16px",
           boxShadow:
-            "rgba(0, 0, 0, 0.25) 0px 0.0625em 0.0625em, rgba(0, 0, 0, 0.25) 0px 0.125em 0.5em, rgba(241, 233, 233, 0.411) 0px 0px 0px 1px inset",
+            "0 10px 40px rgba(0, 0, 0, 0.1), 0 0 0 1px rgba(255, 255, 255, 0.8)",
+          transition: "transform 0.3s ease, box-shadow 0.3s ease",
+          overflow: "hidden",
+        }}
+        onMouseEnter={(e) => {
+          e.currentTarget.style.transform = "translateY(-8px)";
+          e.currentTarget.style.boxShadow =
+            "0 20px 60px rgba(0, 0, 0, 0.15), 0 0 0 1px rgba(255, 255, 255, 0.8)";
+        }}
+        onMouseLeave={(e) => {
+          e.currentTarget.style.transform = "translateY(0)";
+          e.currentTarget.style.boxShadow =
+            "0 10px 40px rgba(0, 0, 0, 0.1), 0 0 0 1px rgba(255, 255, 255, 0.8)";
         }}
       >
         <div
           style={{
             width: "100%",
-            height: "100%",
-            maxWidth: "30rem",
-            aspectRatio: "16/9",
-            backgroundSize: "auto",
+            flex: 1,
+            minHeight: "400px",
+            position: "relative",
+            backgroundColor: "#000",
           }}
         >
-          <ReactPlayer
-            src="https://youtu.be/M9i57csh6Es"
-            controls={true}
-            preload={true}
-            playing={false}
-            volume={1}
-            muted={true}
-            pip={true}
-            stopOnUnmount={false}
+          <YouTube
+            videoId="M9i57csh6Es"
+            opts={{
+              height: "100%",
+              width: "100%",
+              playerVars: {
+                autoplay: 0,
+                controls: 1,
+              },
+            }}
             style={{
               width: "100%",
               height: "100%",
-              maxWidth: "40rem",
-              aspectRatio: "16/9",
-              backgroundSize: "auto",
             }}
           />
         </div>
@@ -47,14 +60,34 @@ export default function Weather() {
           className="description-container"
           style={{
             flex: 1,
-            backgroundColor: "white",
-            padding: "10px",
+            backgroundColor: theme.cardBackground,
+            padding: "2rem",
             maxWidth: "40rem",
+            transition: 'background-color 0.3s ease',
           }}
         >
-          <h3> Weather Watch</h3>
+          <h3
+            style={{
+              fontSize: "1.5rem",
+              fontWeight: "700",
+              color: theme.primaryText,
+              marginTop: 0,
+              marginBottom: "1rem",
+              transition: 'color 0.3s ease',
+            }}
+          >
+            Weather Watch
+          </h3>
 
-          <p>
+          <p
+            style={{
+              fontSize: "1rem",
+              lineHeight: "1.6",
+              color: theme.primaryText,
+              marginBottom: "1.5rem",
+              transition: 'color 0.3s ease',
+            }}
+          >
             A weather application developed in ReactJS, CSS, and HTML. The
             application allows users to search and retrieve weekly weather
             information by zip code within the United States. Accomplished all
@@ -66,28 +99,70 @@ export default function Weather() {
             className="site-links"
             style={{
               display: "flex",
-              flexFlow: "row-wrap",
+              flexFlow: "row wrap",
               alignItems: "center",
               gap: "1rem",
             }}
           >
-            <div>
-              <OpenInNewSharpIcon
-                onClick={() =>
-                  window.open("https://myweatherwatch.netlify.app/")
-                }
-              />{" "}
-              website
-            </div>
+            <button
+              onClick={() =>
+                window.open("https://myweatherwatch.netlify.app/")
+              }
+              style={{
+                display: "flex",
+                alignItems: "center",
+                gap: "0.5rem",
+                padding: "0.75rem 1rem",
+                backgroundColor: "#453737",
+                color: "white",
+                border: "none",
+                borderRadius: "8px",
+                cursor: "pointer",
+                fontSize: "0.95rem",
+                fontWeight: "500",
+                transition: "all 0.3s ease",
+              }}
+              onMouseEnter={(e) => {
+                e.currentTarget.style.backgroundColor = "#5a4a4a";
+                e.currentTarget.style.transform = "translateY(-2px)";
+              }}
+              onMouseLeave={(e) => {
+                e.currentTarget.style.backgroundColor = "#453737";
+                e.currentTarget.style.transform = "translateY(0)";
+              }}
+            >
+              <OpenInNewSharpIcon fontSize="small" /> Visit Site
+            </button>
 
-            <div>
-              <GitHubIcon
-                onClick={() =>
-                  window.open("https://github.com/Dannyagg/weatherwatch")
-                }
-              />{" "}
-              github repo
-            </div>
+            <button
+              onClick={() =>
+                window.open("https://github.com/Dannyagg/weatherwatch")
+              }
+              style={{
+                display: "flex",
+                alignItems: "center",
+                gap: "0.5rem",
+                padding: "0.75rem 1rem",
+                backgroundColor: "#453737",
+                color: "white",
+                border: "none",
+                borderRadius: "8px",
+                cursor: "pointer",
+                fontSize: "0.95rem",
+                fontWeight: "500",
+                transition: "all 0.3s ease",
+              }}
+              onMouseEnter={(e) => {
+                e.currentTarget.style.backgroundColor = "#5a4a4a";
+                e.currentTarget.style.transform = "translateY(-2px)";
+              }}
+              onMouseLeave={(e) => {
+                e.currentTarget.style.backgroundColor = "#453737";
+                e.currentTarget.style.transform = "translateY(0)";
+              }}
+            >
+              <GitHubIcon fontSize="small" /> GitHub Repo
+            </button>
           </div>
         </div>
       </div>
